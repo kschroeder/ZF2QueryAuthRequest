@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "jeremykendall/query-auth": "dev-master",
+    "jeremykendall/query-auth": "^3.0.0",
     "zendframework/zend-http": "^2.5"
   }
 }
