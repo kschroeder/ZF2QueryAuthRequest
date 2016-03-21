@@ -36,10 +36,10 @@ class Zf2RequestAdapter  implements IncomingRequestInterface, RequestInterface
     public function getParams()
     {
         if ($this->getMethod() === Request::METHOD_GET) {
-            return $this->request->getQuery();
+            return $this->request->getQuery()->toString();
         }
 
-        return $this->request->getPost();
+        return $this->request->getPost()->toArray();
     }
 
 
