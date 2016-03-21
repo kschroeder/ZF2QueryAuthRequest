@@ -1,0 +1,16 @@
+{
+  "name": "eschrade/zf2-query-auth",
+  "description": "A simple class that wraps the ZF2 request object so it can be used with jeremykendall/query-auth",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kevin Schroeder",
+      "email": "kschroeder@mirageworks.com"
+    }
+  ],
+  "require": {
+    "jeremykendall/query-auth": "dev-master",
+    "zendframework/zend-http": "^2.5"
+  }
+}
