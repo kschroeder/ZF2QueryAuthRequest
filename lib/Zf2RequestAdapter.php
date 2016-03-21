@@ -30,7 +30,7 @@ class Zf2RequestAdapter  implements IncomingRequestInterface, RequestInterface
 
     public function getPath()
     {
-        $this->request->getUri()->getPath();
+        return $this->request->getUri()->getPath();
     }
 
     public function getParams()
