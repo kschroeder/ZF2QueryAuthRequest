@@ -9,6 +9,11 @@
       "email": "kschroeder@mirageworks.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Eschrade\\QueryAuth\\Request\\Incoming\\": "lib"
+    }
+  },
   "require": {
     "jeremykendall/query-auth": "^3.0.0",
     "zendframework/zend-http": "^2.5"
